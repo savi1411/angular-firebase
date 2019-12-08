@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+        authDomain: "fir-caelum.firebaseapp.com",
+        databaseURL: "https://fir-caelum.firebaseio.com",
+        projectId: "fir-caelum",
+        storageBucket: "fir-caelum.appspot.com",
+        messagingSenderId: "461486330432",
+        appId: "1:461486330432:web:59d1f93774be1d363885a5"
+  }
 };
 
 /*
